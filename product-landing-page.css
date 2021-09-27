@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background-image: linear-gradient(85deg, #CCFFFF, #FFCCCC);
+}
+
+.content{
+  margin-top: 55px;
+}
+
+#title{
+  font-family: 'Rampart One', cursive;
+  color: rgb(0, 0, 0);
+}
+
+.about-us{
+  color: black;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex; 
+  align-items:center;
+  background-color: rgb(207, 241, 250);
+  font-family: 'Merienda', cursive;
+  text-align: center;
+}
+
+.intro-text{
+  font-family: 'Merienda', cursive;
+}
+
+.product-gallery{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 252, 227);
+}
+
+.products{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-style: double; 
+  margin: .5rem .5rem .5rem .5rem; 
+}
+
+.products:hover{
+  transform: translateY(8px);
+}
+
+.product-title{
+  color: rgb(0, 0, 0);
+  font-size: 1.8rem;
+  margin-top: 60px;
+  align-content: center;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+.video-pluggin{
+  background-color: rgb(252, 235, 237);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-family: 'Merienda', cursive;
+  text-align: center;
+}
+
+#youtube-description{
+  padding: 40px;
+  margin: 60px;
+  font-family: 'Merienda', cursive;
+}
+
+.video-pluggin, .monthly-newsletter{
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.monthly-newsletter{
+  background-color: rgb(255, 250, 227);
+}
+
+#newsletter{
+  text-align: center;
+  margin: 50px auto;
+}
+
+#news-text{
+font-family: 'Fugaz One', cursive;
+line-height: 1.5rem;
+font-size: 1.1rem;
+}
+
+#news-title{
+  font-size: 2.5rem;
+  font-family: 'Oleo Script', cursive;
+}
+
+@media (max-width: 320px){
+  #title{
+    margin-top: 55px;
+    font-size: 1.7rem;
+    font-family: 'Rampart One', cursive;
+    color: rgb(0, 0, 0);
+  }
+  
+  .about-us{
+    color: black;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex; 
+    align-items:center;
+    background-color: rgb(207, 241, 250);
+    font-family: 'Merienda', cursive;
+    text-align: center;
+  }
+  
+  .intro-text{
+    font-family: 'Merienda', cursive;
+  }
+  
+  .product-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 252, 227);
+  }
+  
+  .products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-style: double; 
+    margin: .5rem .5rem .5rem .5rem; 
+  }
+  
+  .products:hover{
+    transform: translateY(8px);
+  }
+  
+  .product-title{
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    margin-top: 60px;
+    align-content: center;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+  }
+  
+
+  .video-pluggin{
+    background-color: rgb(252, 235, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+  }
+  
+#youtube-video{
+  width: 50%;
+}
+
+  #youtube-description{
+    width: 30%;
+    padding: 40px;
+    margin: 60px;
+    font-family: 'Merienda', cursive;
+  }
+  
+  .video-pluggin, .monthly-newsletter{
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .monthly-newsletter{
+    background-color: rgb(255, 250, 227);
+  }
+  
+  #newsletter{
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  #news-text{
+  font-family: 'Fugaz One', cursive;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  }
+  
+  #news-title{
+    font-size: 2.5rem;
+    font-family: 'Oleo Script', cursive;
+  }
+}
